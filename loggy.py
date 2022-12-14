@@ -5,11 +5,61 @@
 import argparse
 import logging
 import re
+from pathlib import Path
+from typing import Iterable
 
 FORMAT = "%(levelname)s: %(message)s"
 logging.basicConfig(format=FORMAT, level=logging.WARNING)
-log = logging.getLogger()
+logger = logging.getLogger()
 
+
+class Case:
+    """
+    We are trying to find known patterns in logs that correspond to specific cases.
+    For example if a build dependency is not installed, there will be a known error
+    message in the log saying that a header file is missing or a python module
+    can't be imported.
+
+    The cases are represented by this class.
+    """
+    # regular expression that can detect the case
+    regex = ""
+    # short title for the use case
+    title = ""
+    # detailed description of the problem with steps how to fix it
+    description = ""
+
+    def get_details(self, finds: Iterable[re.Match]) -> str:
+        """
+        provide details that highlight the problem"""
+        return "Nothing"
+
+
+class MissingFileCase(Case):
+    regex = r"File\s+not\s+found:"
+    regex_details = ""  # TODO: we need to get the actual filenames
+    title = "File not found"  # the most iconic error message
+    description = "TBD"
+
+
+class UnpackagedFileCase(Case):
+    regex = r"Installed\s+\(but\s+unpackaged\)\s+file\(s\)\s+found:"
+    title = "File not listed in %files"  # the most iconic error message
+    description = "TBD"
+
+    def get_details(self, finds: Iterable[re.Match]):
+        for f in finds:
+            return f.string[f.start():]
+
+
+class MissingBuildDepCase(Case):
+    """
+    error: Failed build dependencies:
+        python3dist(setuptools-scm-git-archive) is needed by python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124209182599.main.5.gde29f3a.fc37.noarch
+    """
+
+# TODO: use decorator
+cases = [MissingFileCase, UnpackagedFileCase]
 
 def argumentParser():
     parser = argparse.ArgumentParser(
@@ -21,73 +71,30 @@ def argumentParser():
     return arguments
 
 
-def parseBuildLog(log_path):
-    """Parses the build log.
+class App:
+    def parse_build_log(self, path: str) -> dict:
+        try:
+            log_content = Path(path).read_text()
+        except IOError as error:
+            logger.error("There was an error opening %s, %s", path, error)
+            return {}
 
-    Args:
-        log_path (str): Path to the RPM build log.
+        result = {}
+        for case_kls in cases:
+            case = case_kls()
+            finds = re.finditer(case.regex, log_content)
+            result[case.title] = {}
+            if finds:
+                result[case.title]["details"] = case.get_details(finds)
 
-    Returns:
-        tuple: The first element is the type of error that was found
-            in the log (missing or deleted). The second element is
-            a list of problematic files.
-    """
-    try:
-        with open(log_path, "r") as build_log:
-            lines = build_log.read().splitlines()
-    except IOError as error:
-        log.error("There was an error opening %s, %s", log_path, str(error))
-        return
-
-    error_re = re.compile(
-        r"""
-        ^
-        (BUILDSTDERR:)?
-        \s*
-        (
-            (?P<missing>File\s+not\s+found:\s*)|
-            (?P<unpackaged>Installed\s+\(but\s+unpackaged\)\s+file\(s\)\s+found:)
-        )?
-        (?P<path>/.*)?
-        $
-        """, re.VERBOSE,
-    )
-
-    error_type = None
-    files = set()
-
-    for line in lines:
-        match = error_re.match(line)
-        if match:
-            if match.group("missing"):
-                error_type = "deleted"
-                files.add(match.group("path"))
-            elif match.group("unpackaged"):
-                error_type = "missing"
-            elif error_type == "missing" and match.group("path"):
-                files.add(match.group("path"))
-            elif error_type and not match.group("path"):
-                break
-
-    return error_type, list(files)
+        return result
 
 
 def main(log_path):
-    error = parseBuildLog(log_path)
-    if error[0] is not None:
-        if error[0] == "missing":
-            print(
-                "Error type: {0}".format("Build failed because problematic files are in %buildroot but not in %files")
-            )
-        elif error[0] == "deleted":
-            print(
-                "Error type: {0}".format("Build failed because problematic files are in %files but not in %buildroot")
-            )
-        print("Problematic files: ")
-        for files in error[1]:
-            print(files)
-    else:
-        log.error("Couldn't recognize the error that caused the build failure.")
+    a = App()
+    result = a.parse_build_log(log_path)
+    for case_title, content in result.items():
+        print(f"{case_title}\n{content['details']}\n\n")
 
 
 if __name__ == "__main__":

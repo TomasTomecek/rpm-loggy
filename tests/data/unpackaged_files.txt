@@ -1,0 +1,836 @@
+2022-12-09 12:44:41.305 base_git.py       INFO   Using user-defined script for ActionName.get_current_version: [['python3', 'setup.py', '--version']]
+2022-12-09 12:44:41.632 logging.py        INFO   /usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+2022-12-09 12:44:41.632 logging.py        INFO     warnings.warn(msg, warning_class)
+2022-12-09 12:44:42.029 logging.py        INFO   /usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+2022-12-09 12:44:42.029 logging.py        INFO     warnings.warn(msg, warning_class)
+2022-12-09 12:44:42.031 logging.py        INFO   0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:42.075 base_git.py       INFO   Using user-defined script for ActionName.create_archive: [['python3', 'setup.py', 'sdist', '--dist-dir', './fedora/'], ['bash', '-c', 'ls -1t ./fedora/*.tar.gz | head -n 1']]
+2022-12-09 12:44:42.475 logging.py        INFO   /usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+2022-12-09 12:44:42.475 logging.py        INFO     warnings.warn(msg, warning_class)
+2022-12-09 12:44:42.912 logging.py        INFO   /usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+2022-12-09 12:44:42.912 logging.py        INFO     warnings.warn(msg, warning_class)
+2022-12-09 12:44:42.980 logging.py        INFO   running sdist
+2022-12-09 12:44:42.980 logging.py        INFO   running egg_info
+2022-12-09 12:44:43.110 logging.py        INFO   writing ogr.egg-info/PKG-INFO
+2022-12-09 12:44:43.160 logging.py        INFO   writing dependency_links to ogr.egg-info/dependency_links.txt
+2022-12-09 12:44:43.418 logging.py        INFO   writing requirements to ogr.egg-info/requires.txt
+2022-12-09 12:44:43.468 logging.py        INFO   writing top-level names to ogr.egg-info/top_level.txt
+2022-12-09 12:44:43.853 logging.py        INFO   adding license file 'LICENSE'
+2022-12-09 12:44:43.857 logging.py        INFO   writing manifest file 'ogr.egg-info/SOURCES.txt'
+2022-12-09 12:44:43.857 logging.py        INFO   running check
+2022-12-09 12:44:43.888 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/.fmf
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/.github
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/examples/img
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/fedora
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services
+2022-12-09 12:44:43.889 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/plans
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory/test_data
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory/test_data/test_factory
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_readonly
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_comments
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_forks
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.890 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_tags
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_comments
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.891 logging.py        INFO   creating ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.891 logging.py        INFO   copying files to ogr-0.41.1.dev5+gde29f3a.d20221209...
+2022-12-09 12:44:43.891 logging.py        INFO   copying .git_archival.txt -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.891 logging.py        INFO   copying .gitattributes -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.891 logging.py        INFO   copying .gitchangelog.rc -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.891 logging.py        INFO   copying .gitignore -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying .packit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying .pre-commit-config.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying .prettierignore -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying .zuul.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying CHANGELOG.md -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying COMPATIBILITY.md -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying CONTRIBUTING.md -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying DCO -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying LICENSE -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying Makefile -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying README.md -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.892 logging.py        INFO   copying markdown.tpl -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying recipe.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying release-conf.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying setup.cfg -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying setup.py -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying tox.ini -> ogr-0.41.1.dev5+gde29f3a.d20221209
+2022-12-09 12:44:43.893 logging.py        INFO   copying .fmf/version -> ogr-0.41.1.dev5+gde29f3a.d20221209/.fmf
+2022-12-09 12:44:43.893 logging.py        INFO   copying .github/PULL_REQUEST_TEMPLATE.md -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github
+2022-12-09 12:44:43.893 logging.py        INFO   copying .github/stale.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github
+2022-12-09 12:44:43.893 logging.py        INFO   copying .github/workflows/do-release.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.893 logging.py        INFO   copying .github/workflows/docs.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.893 logging.py        INFO   copying .github/workflows/opened-issues-to-the-board.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.894 logging.py        INFO   copying .github/workflows/prepare-release.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.894 logging.py        INFO   copying .github/workflows/pypi-publish.yml -> ogr-0.41.1.dev5+gde29f3a.d20221209/.github/workflows
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/README.md -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/list_pr_patches.ipynb -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/list_prs_since_release.ipynb -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/releases.ipynb -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/user_owned_repositories.ipynb -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/working_with_issues.ipynb -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/img/closed_issue.png -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples/img
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/img/new_issue.png -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples/img
+2022-12-09 12:44:43.894 logging.py        INFO   copying examples/img/newly_created_project.png -> ogr-0.41.1.dev5+gde29f3a.d20221209/examples/img
+2022-12-09 12:44:43.895 logging.py        INFO   copying fedora/python-ogr.spec -> ogr-0.41.1.dev5+gde29f3a.d20221209/fedora
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/packit-testing-farm-prepare.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/zuul-install-requirements-pip.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/zuul-install-requirements-rpms.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/zuul-reverse-dep-packit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/zuul-tests.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/tasks/build-rpm-deps.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/tasks/configure-git.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/tasks/generic-dnf-requirements.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/tasks/install-ogr.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.895 logging.py        INFO   copying files/tasks/packit-requirements.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.896 logging.py        INFO   copying files/tasks/packit-tests.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.896 logging.py        INFO   copying files/tasks/project-dir.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.896 logging.py        INFO   copying files/tasks/python-compile-deps.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.896 logging.py        INFO   copying files/tasks/rpm-test-deps.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/files/tasks
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/abstract.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/constant.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/deprecation.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/exceptions.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/factory.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.896 logging.py        INFO   copying ogr/parsing.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/py.typed -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/read_only.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/utils.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr.egg-info/PKG-INFO -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr.egg-info/SOURCES.txt -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr.egg-info/dependency_links.txt -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr.egg-info/requires.txt -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr.egg-info/top_level.txt -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr.egg-info
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/services/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/services/base.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/services/github/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.897 logging.py        INFO   copying ogr/services/github/check_run.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/flag.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/issue.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/project.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/pull_request.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/release.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/user.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/auth_providers/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.898 logging.py        INFO   copying ogr/services/github/auth_providers/abstract.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/github/auth_providers/github_app.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/github/auth_providers/token.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/github/auth_providers/tokman.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/github/auth_providers
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/flag.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/issue.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/project.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/pull_request.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/release.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.899 logging.py        INFO   copying ogr/services/gitlab/user.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/gitlab
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/flag.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/issue.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/project.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/pull_request.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/release.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying ogr/services/pagure/user.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/ogr/services/pagure
+2022-12-09 12:44:43.900 logging.py        INFO   copying plans/README.md -> ogr-0.41.1.dev5+gde29f3a.d20221209/plans
+2022-12-09 12:44:43.900 logging.py        INFO   copying plans/full.fmf -> ogr-0.41.1.dev5+gde29f3a.d20221209/plans
+2022-12-09 12:44:43.901 logging.py        INFO   copying plans/linters.fmf -> ogr-0.41.1.dev5+gde29f3a.d20221209/plans
+2022-12-09 12:44:43.901 logging.py        INFO   copying plans/smoke.fmf -> ogr-0.41.1.dev5+gde29f3a.d20221209/plans
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/conftest.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/factory/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/factory/test_factory.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/factory/test_data/test_factory/FactoryTests.test_get_project_github.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory/test_data/test_factory
+2022-12-09 12:44:43.901 logging.py        INFO   copying tests/integration/factory/test_data/test_factory/FactoryTests.test_get_project_gitlab.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory/test_data/test_factory
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/factory/test_data/test_factory/FactoryTests.test_get_project_pagure.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/factory/test_data/test_factory
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/base.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/base_app.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_app.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_check_run.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_forks.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_generic_commands.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_issues.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.902 logging.py        INFO   copying tests/integration/github/test_pull_requests.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_readonly.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_releases.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_retries.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_app/App.test_get_project.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_app/App.test_get_project_having_key_as_path.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_app/App.test_github_proj_no_app_creds.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_app/App.test_private_key.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_app/App.test_private_key_path.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_app
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_change_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.903 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_change_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_completed_without_conclusion.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_neutral_completed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_timed_out.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_to_queue_and_succeed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_with_completed_at_without_conclusion.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_create_with_completed_without_conclusion.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_get_latest_check_run.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_get_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_get_list_no_runs.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.904 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_non_existing_check_runs_returns_none.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_setting_completed_at_without_conclusion.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_check_run/CheckRun.test_setting_completed_without_conclusion.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_check_run
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_get_reactions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_regex_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.905 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_comments_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_issue_react_to_comment_and_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_filter.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_search.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.906 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_comments_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.907 logging.py        INFO   copying tests/integration/github/test_data/test_comments/Comments.test_pr_react_to_comment_and_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_comments
+2022-12-09 12:44:43.907 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_create_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.907 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_create_fork_with_namespace.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.907 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.907 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_get_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_is_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_forks/Forks.test_nonexisting_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_forks
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_add_user.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_branches.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_commit_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_commit_flags.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.908 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_description_property.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_description_setter.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_email.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_full_repo_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_commit_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_commit_statuses.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_contributors.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.909 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_files.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_owners.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch_non_existing.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_sha_from_tag.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_tag_from_nonexisting_tag_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_tag_from_tag_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_tags.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.910 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_get_web_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_git_urls.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_has_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_is_not_private.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_is_private.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_issue_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_issue_permissions_cant_close.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_nonexisting_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.911 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_parent_project.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_pr_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_project_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_project_not_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_set_commit_status.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_set_commit_status_long_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_username.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_generic_commands/GenericCommands.test_write_access_to_repo.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_generic_commands
+2022-12-09 12:44:43.912 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_create_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_create_issue_with_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_create_private_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_create_with_disabled_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_functions_fail_for_pr.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_assignees.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.913 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.918 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_list_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.918 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_list_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_list_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_list_nonexisting_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_no_such_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_not_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.919 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_issue_without_label.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.920 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_list_contains_only_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_issues/Issues.test_setters.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_issues
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_all_pr_commits.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_commits_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.922 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_merge_commit_sha.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.923 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_close.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.923 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_create_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.923 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_create_fork_other_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.923 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_create_upstream_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.924 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_create_upstream_forkusername.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.924 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_create_upstream_upstream.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.925 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.925 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.925 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.933 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_not_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.933 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_patch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_pr_status.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_setters.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_other_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_renamed_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_renamed_upstream.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_upstream_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.934 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_source_project_upstream_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_target_branch_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_pull_requests/PullRequests.test_update_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_pull_requests
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_readonly/ReadOnly.test_create_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_readonly
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_readonly/ReadOnly.test_create_pr.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_readonly
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_readonly/ReadOnly.test_pr_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_readonly
+2022-12-09 12:44:43.935 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_create_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_edit_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_get_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_get_releases.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_latest_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_releases/Releases.test_latest_release_doesnt_exist.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_releases
+2022-12-09 12:44:43.936 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_list_projects_with_user_input.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_list_projects_with_user_language_input.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_project_create.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_project_create_duplicate.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_project_create_in_the_group.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_project_create_with_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_wrong_auth.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/github/test_data/test_service/Service.test_wrong_auth_static_method.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/github/test_data/test_service
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/gitlab/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/gitlab/base.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.937 logging.py        INFO   copying tests/integration/gitlab/test_comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_forks.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_generic_commands.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_issues.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_pull_requests.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_releases.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_tags.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_data/test_comments/Comments.test_get_reactions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_comments
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_data/test_comments/Comments.test_issue_react_to_comment_and_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_comments
+2022-12-09 12:44:43.938 logging.py        INFO   copying tests/integration/gitlab/test_data/test_comments/Comments.test_pr_react_to_comment_and_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_comments
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_forks/Forks.test_create_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_forks
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_forks/Forks.test_create_fork_with_namespace.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_forks
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_forks/Forks.test_get_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_forks
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_forks/Forks.test_is_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_forks
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_add_user.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_branches.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.939 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_branches_pagination.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_commit_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_description_property.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_description_setter.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_email.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_full_repo_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_commit_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_commit_statuses.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_contributors.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.940 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_file_content.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_files.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_git_urls.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_owners.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch_non_existing.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_sha_from_tag.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_get_web_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.941 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_has_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_is_not_private.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_is_private.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_issue_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_nonexisting_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_parent_project.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_pr_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_project_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_project_not_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.942 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_request_access.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_set_commit_status.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_username.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_generic_commands/GenericCommands.test_write_access_to_repo.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_generic_commands
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_close_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_create_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_create_issue_with_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_create_private_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_create_with_disabled_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.943 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments_regex_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_comments_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.944 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_list_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_list_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_get_issue_list_nonexisting_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_assignees.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_comments_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_list_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.945 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_issue_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_issues/Issues.test_setters.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_issues
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_commits_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_create_pr_fork_other_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_create_pr_upstream_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_create_pr_upstream_forkusername.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.946 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_create_pr_upstream_upstream.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_get_all_pr_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_get_all_pr_commits.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_get_pr_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_get_pr_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_merge_commit_sha.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.947 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_close.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_comments_updates.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_create_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_merge.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_not_exists.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_patch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.948 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_pr_status.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_setters.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_other_fork_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_renamed_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_renamed_upstream.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_upstream_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_source_project_upstream_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.949 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_target_branch_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_test_merge_commit_sha.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_pull_requests/PullRequests.test_update_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_pull_requests
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_releases/Releases.test_create_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_releases/Releases.test_get_latest_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_releases/Releases.test_get_latest_release_doesnt_exist.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_releases/Releases.test_get_releases.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.950 logging.py        INFO   copying tests/integration/gitlab/test_data/test_releases/Releases.test_get_releases_pagination.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_releases
+2022-12-09 12:44:43.951 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_list_projects_get_forks.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.951 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_list_projects_with_namespace_input.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.951 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_list_projects_with_namespace_input_and_language_input.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.951 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_project_create.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_project_create_duplicate.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_project_create_in_the_group.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_project_create_with_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_service_without_auth.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_wrong_auth.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_service/Service.test_wrong_auth_static_method.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_service
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_tags/Tags.test_get_tags.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_tags
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/gitlab/test_data/test_tags/Tags.test_tag_from_tag_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/gitlab/test_data/test_tags
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/pagure/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.952 logging.py        INFO   copying tests/integration/pagure/base.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_comments.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_forks.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_generic_commands.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_issues.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_project_token.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_pull_requests.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_service.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_data/test_comments/Comments.test_pr_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_comments
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_data/test_comments/Comments.test_pr_comments_filter.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_comments
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_data/test_comments/Comments.test_pr_comments_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_comments
+2022-12-09 12:44:43.953 logging.py        INFO   copying tests/integration/pagure/test_data/test_comments/Comments.test_pr_comments_search.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_comments
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_create_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_create_fork_with_namespace.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_fork_in_str.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_fork_property.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_forks/Forks.test_nonexisting_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_forks
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_add_group.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_add_user.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_branches.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.954 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_commit_statuses.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_delete.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_description_property.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_full_repo_name.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_files.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_owners.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_releases.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.955 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_sha_from_branch_non_existing.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_get_web_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_git_urls.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_has_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_no_file_server_error.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_nonexisting_file.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_parent_project.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_pr_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_username.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_generic_commands/GenericCommands.test_write_access_to_repo.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_generic_commands
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_create_issue.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.956 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_create_issue_with_assignees.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_create_with_disabled_issues.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_assignees.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list_assignee.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list_labels.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list_nonexisting_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.957 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_list_paginated.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_issues/Issues.test_issue_without_label.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_issues
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_create_release.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_is_private.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.960 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments_regex_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_comments_reversed.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_permissions.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_update_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_issue_update_title.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_pr_comments_author.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_pr_comments_author_regex.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.961 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_pr_setters.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_pr_status.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_token_is_none_then_set.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_project_token/PagureProjectTokenCommands.test_update_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_project_token
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_commits_url.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_get_comment.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_pr_create_from_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_pr_create_from_parent.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_pr_info.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.962 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_pr_list.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_pr_patch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_set_pr_flag.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_source_project_upstream_branch.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_source_project_upstream_fork.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_pull_requests/PullRequests.test_target_branch_head_commit.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_pull_requests
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_service/Service.test_project_create.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_service/Service.test_project_create_in_the_group.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_service/Service.test_project_create_invalid_namespace.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_service/Service.test_project_create_unauthorized_namespace.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/integration/pagure/test_data/test_service/Service.test_project_create_with_description.yaml -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/integration/pagure/test_data/test_service
+2022-12-09 12:44:43.963 logging.py        INFO   copying tests/unit/__init__.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_factory.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_github.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_gitlab.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_pagure.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_parsing.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.964 logging.py        INFO   copying tests/unit/test_utils.py -> ogr-0.41.1.dev5+gde29f3a.d20221209/tests/unit
+2022-12-09 12:44:43.965 logging.py        INFO   Writing ogr-0.41.1.dev5+gde29f3a.d20221209/setup.cfg
+2022-12-09 12:44:43.965 logging.py        INFO   Creating tar archive
+2022-12-09 12:44:45.740 logging.py        INFO   removing 'ogr-0.41.1.dev5+gde29f3a.d20221209' (and everything under it)
+2022-12-09 12:44:45.804 logging.py        INFO   ./fedora/ogr-0.41.1.dev5+gde29f3a.d20221209.tar.gz
+2022-12-09 12:44:45.804 upstream.py       INFO   Created archive:
+2022-12-09 12:44:45.804 upstream.py       INFO   	parsed   path: /home/tt/g/packit/ogr/fedora/ogr-0.41.1.dev5+gde29f3a.d20221209.tar.gz
+2022-12-09 12:44:45.804 upstream.py       INFO   	absolute path: /home/tt/g/packit/ogr/fedora/ogr-0.41.1.dev5+gde29f3a.d20221209.tar.gz
+2022-12-09 12:44:47.330 upstream.py       INFO   Version in upstream registries is '0.41.0'.
+2022-12-09 12:44:47.460 upstream.py       INFO   Version in spec file is '0.41.1.dev5+gde29f3a.d20221209'.
+2022-12-09 12:44:47.460 upstream.py       INFO   Picking version '0.41.1.dev5+gde29f3a.d20221209' found in spec file.
+2022-12-09 12:44:53.459 commands.py       ERROR  Command 'rpmbuild -bb --define _sourcedir /home/tt/g/packit/ogr/fedora --define _srcdir /home/tt/g/packit/ogr/fedora --define _specdir /home/tt/g/packit/ogr/fedora --define _topdir /home/tt/g/packit/ogr/fedora --define _builddir /home/tt/g/packit/ogr/fedora --define _rpmdir /home/tt/g/packit/ogr --define _buildrootdir /home/tt/g/packit/ogr/fedora fedora/python-ogr.spec' failed.
+2022-12-09 12:44:53.459 upstream.py       ERROR  The `rpmbuild` command failed: PackitCommandFailedError("Command 'rpmbuild -bb --define _sourcedir /home/tt/g/packit/ogr/fedora --define _srcdir /home/tt/g/packit/ogr/fedora --define _specdir /home/tt/g/packit/ogr/fedora --define _topdir /home/tt/g/packit/ogr/fedora --define _builddir /home/tt/g/packit/ogr/fedora --define _rpmdir /home/tt/g/packit/ogr --define _buildrootdir /home/tt/g/packit/ogr/fedora fedora/python-ogr.spec' failed.")
+2022-12-09 12:44:53.459 utils.py          ERROR  reason:
+Command 'rpmbuild -bb --define _sourcedir /home/tt/g/packit/ogr/fedora --define _srcdir /home/tt/g/packit/ogr/fedora --define _specdir /home/tt/g/packit/ogr/fedora --define _topdir /home/tt/g/packit/ogr/fedora --define _builddir /home/tt/g/packit/ogr/fedora --define _rpmdir /home/tt/g/packit/ogr --define _buildrootdir /home/tt/g/packit/ogr/fedora fedora/python-ogr.spec' failed.
+command:
+rpmbuild -bb --define _sourcedir /home/tt/g/packit/ogr/fedora --define _srcdir /home/tt/g/packit/ogr/fedora --define _specdir /home/tt/g/packit/ogr/fedora --define _topdir /home/tt/g/packit/ogr/fedora --define _builddir /home/tt/g/packit/ogr/fedora --define _rpmdir /home/tt/g/packit/ogr --define _buildrootdir /home/tt/g/packit/ogr/fedora fedora/python-ogr.spec
+stdout:
+setting SOURCE_DATE_EPOCH=1670544000
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.lZkCnO
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.auwMso
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/ogr
+copying ogr/__init__.py -> build/lib/ogr
+copying ogr/abstract.py -> build/lib/ogr
+copying ogr/constant.py -> build/lib/ogr
+copying ogr/deprecation.py -> build/lib/ogr
+copying ogr/exceptions.py -> build/lib/ogr
+copying ogr/factory.py -> build/lib/ogr
+copying ogr/parsing.py -> build/lib/ogr
+copying ogr/read_only.py -> build/lib/ogr
+copying ogr/utils.py -> build/lib/ogr
+creating build/lib/ogr/services
+copying ogr/services/__init__.py -> build/lib/ogr/services
+copying ogr/services/base.py -> build/lib/ogr/services
+creating build/lib/ogr/services/github
+copying ogr/services/github/__init__.py -> build/lib/ogr/services/github
+copying ogr/services/github/check_run.py -> build/lib/ogr/services/github
+copying ogr/services/github/comments.py -> build/lib/ogr/services/github
+copying ogr/services/github/flag.py -> build/lib/ogr/services/github
+copying ogr/services/github/issue.py -> build/lib/ogr/services/github
+copying ogr/services/github/project.py -> build/lib/ogr/services/github
+copying ogr/services/github/pull_request.py -> build/lib/ogr/services/github
+copying ogr/services/github/release.py -> build/lib/ogr/services/github
+copying ogr/services/github/service.py -> build/lib/ogr/services/github
+copying ogr/services/github/user.py -> build/lib/ogr/services/github
+creating build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/__init__.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/comments.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/flag.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/issue.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/project.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/pull_request.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/release.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/service.py -> build/lib/ogr/services/gitlab
+copying ogr/services/gitlab/user.py -> build/lib/ogr/services/gitlab
+creating build/lib/ogr/services/pagure
+copying ogr/services/pagure/__init__.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/comments.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/flag.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/issue.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/project.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/pull_request.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/release.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/service.py -> build/lib/ogr/services/pagure
+copying ogr/services/pagure/user.py -> build/lib/ogr/services/pagure
+creating build/lib/ogr/services/github/auth_providers
+copying ogr/services/github/auth_providers/__init__.py -> build/lib/ogr/services/github/auth_providers
+copying ogr/services/github/auth_providers/abstract.py -> build/lib/ogr/services/github/auth_providers
+copying ogr/services/github/auth_providers/github_app.py -> build/lib/ogr/services/github/auth_providers
+copying ogr/services/github/auth_providers/token.py -> build/lib/ogr/services/github/auth_providers
+copying ogr/services/github/auth_providers/tokman.py -> build/lib/ogr/services/github/auth_providers
+running egg_info
+creating ogr.egg-info
+writing ogr.egg-info/PKG-INFO
+writing dependency_links to ogr.egg-info/dependency_links.txt
+writing requirements to ogr.egg-info/requires.txt
+writing top-level names to ogr.egg-info/top_level.txt
+writing manifest file 'ogr.egg-info/SOURCES.txt'
+reading manifest file 'ogr.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'ogr.egg-info/SOURCES.txt'
+copying ogr/py.typed -> build/lib/ogr
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.tBWNP3
+running install
+running install_lib
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/abstract.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/constant.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/deprecation.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/exceptions.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/factory.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/parsing.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/read_only.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+copying build/lib/ogr/utils.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services
+copying build/lib/ogr/services/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services
+copying build/lib/ogr/services/base.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/check_run.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/comments.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/flag.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/issue.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/project.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/pull_request.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/release.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/service.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+copying build/lib/ogr/services/github/user.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+copying build/lib/ogr/services/github/auth_providers/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+copying build/lib/ogr/services/github/auth_providers/abstract.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+copying build/lib/ogr/services/github/auth_providers/github_app.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+copying build/lib/ogr/services/github/auth_providers/token.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+copying build/lib/ogr/services/github/auth_providers/tokman.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/github/auth_providers
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/comments.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/flag.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/issue.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/project.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/pull_request.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/release.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/service.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+copying build/lib/ogr/services/gitlab/user.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/gitlab
+creating /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/__init__.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/comments.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/flag.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/issue.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/project.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/pull_request.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/release.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/service.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/services/pagure/user.py -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr/services/pagure
+copying build/lib/ogr/py.typed -> /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr
+running install_egg_info
+running egg_info
+writing ogr.egg-info/PKG-INFO
+writing dependency_links to ogr.egg-info/dependency_links.txt
+writing requirements to ogr.egg-info/requires.txt
+writing top-level names to ogr.egg-info/top_level.txt
+reading manifest file 'ogr.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'ogr.egg-info/SOURCES.txt'
+Copying ogr.egg-info to /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info
+running install_scripts
+Bytecompiling .py files below /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/lib/python3.11 using python3.11
+Processing files: python3-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.noarch
+Provides: python-ogr = 0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37 python3-ogr = 0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37 python3.11-ogr = 0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64
+
+RPM build errors:
+
+stderr:
++ umask 022
++ cd /home/tt/g/packit/ogr/fedora
++ cd /home/tt/g/packit/ogr/fedora
++ rm -rf ogr-0.41.1.dev5+gde29f3a.d20221209
++ /usr/lib/rpm/rpmuncompress -x /home/tt/g/packit/ogr/fedora/ogr-0.41.1.dev5+gde29f3a.d20221209.tar.gz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd ogr-0.41.1.dev5+gde29f3a.d20221209
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ rm -rf ogr.egg-info
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /home/tt/g/packit/ogr/fedora
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FCFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes'
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd ogr-0.41.1.dev5+gde29f3a.d20221209
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes'
++ /usr/bin/python3 setup.py build '--executable=/usr/bin/python3 -sP'
+/usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+  warnings.warn(msg, warning_class)
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:284: UserWarning: git archive did not support describe output
+  warnings.warn("git archive did not support describe output")
+warning: build_py: byte-compiling is disabled, skipping.
+
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /home/tt/g/packit/ogr/fedora
++ '[' /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64 '!=' / ']'
++ rm -rf /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64
+++ dirname /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64
++ mkdir -p /home/tt/g/packit/ogr/fedora
++ mkdir /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FCFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes'
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd ogr-0.41.1.dev5+gde29f3a.d20221209
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes'
++ /usr/bin/python3 setup.py install -O1 --skip-build --root /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64 --prefix /usr
+/usr/lib/python3.11/site-packages/setuptools/config/setupcfg.py:463: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+  warnings.warn(msg, warning_class)
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:284: UserWarning: git archive did not support describe output
+  warnings.warn("git archive did not support describe output")
+/usr/lib/python3.11/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+warning: install_lib: byte-compiling is disabled, skipping.
+
++ rm -rfv /home/tt/g/packit/ogr/fedora/python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64/usr/bin/__pycache__
++ /usr/bin/find-debuginfo -j8 --strict-build-id -m -i --build-id-seed 0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37 --unique-debug-suffix -0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64 --unique-debug-src-base python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124446539523.main.5.gde29f3a.fc37.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 -S debugsourcefiles.list /home/tt/g/packit/ogr/fedora/ogr-0.41.1.dev5+gde29f3a.d20221209
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ /usr/lib/rpm/brp-remove-la-files
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/redhat/brp-python-hardlink
+error: Installed (but unpackaged) file(s) found:
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/PKG-INFO
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/SOURCES.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/dependency_links.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/requires.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/top_level.txt
+    Installed (but unpackaged) file(s) found:
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/PKG-INFO
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/SOURCES.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/dependency_links.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/requires.txt
+   /usr/lib/python3.11/site-packages/ogr-0.41.1.dev5+gde29f3a.d20221209-py3.11.egg-info/top_level.txt
+
