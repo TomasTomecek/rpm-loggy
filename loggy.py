@@ -1,12 +1,11 @@
 #!/usr/bin/python3 -tt
-# -*- coding: utf-8 -*-
 # vim:expandtab:autoindent:tabstop=4:shiftwidth=4:filetype=python:textwidth=0:
 
 import argparse
 import logging
 import re
 from pathlib import Path
-from typing import Iterable, Any, Dict
+from typing import Iterable
 
 FORMAT = "%(levelname)s: %(message)s"
 logging.basicConfig(format=FORMAT, level=logging.WARNING)
@@ -22,6 +21,7 @@ class Case:
 
     The cases are represented by this class.
     """
+
     # regular expression that can detect the case
     regex = ""
     # short title for the use case
@@ -49,21 +49,22 @@ class UnpackagedFileCase(Case):
 
     def get_details(self, finds: Iterable[re.Match]):
         for f in finds:
-            return f.string[f.start():]
+            return f.string[f.start() :]
 
 
 class MissingBuildDepCase(Case):
     """
     error: Failed build dependencies:
-        python3dist(setuptools-scm-git-archive) is needed by python-ogr-0.41.1.dev5+gde29f3a.d20221209-1.20221209124209182599.main.5.gde29f3a.fc37.noarch
+        python3dist(setuptools-scm-git-archive) is needed by python...
     """
+
     regex = r"error: Failed\s+build\s+dependencies\:\n"
     title = "Build dependency not installed"
     description = "Your spec file set a build dependency in `BuildRequires` that is not installed."
 
     def get_details(self, finds: Iterable[re.Match]):
         for f in finds:
-            return f.string[f.end():]
+            return f.string[f.end() :]
 
 
 # TODO: use decorator
@@ -84,7 +85,7 @@ class App:
     def parse_build_log(self, path: str) -> dict:
         try:
             log_content = Path(path).read_text()
-        except IOError as error:
+        except OSError as error:
             logger.error("There was an error opening %s, %s", path, error)
             return {}
 
@@ -92,9 +93,9 @@ class App:
         for case_kls in cases:
             case = case_kls()
             finds = re.finditer(case.regex, log_content)
-            result[case.title]: Dict[str, Any] = {"match": False}
+            result[case.title] = {"match": "N"}
             if finds:
-                result[case.title]["match"] = True
+                result[case.title]["match"] = "Y"
                 result[case.title]["details"] = case.get_details(finds)
 
         return result
