@@ -8,6 +8,12 @@ logs and offers you a quick and easy solution.
 The tool is a proof of concept and needs a lot of work to be useful. Mainly
 detect much more common problems.
 
+## This is now deprecated
+
+https://github.com/TomasTomecek/my-rpm-build-broke
+
+## Details
+
 It should be integrated into [Packit](https://packit.dev/) and
 [Copr](https://copr.fedorainfracloud.org/).
 
